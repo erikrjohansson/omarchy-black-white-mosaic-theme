@@ -11,7 +11,7 @@ Charcoal-black mosaic tiles, soft white motifs, and grayscale interface accents.
 For **Omarchy 4 with Omarchy Shell**:
 
 ```sh
-omarchy theme install https://github.com/ejuro/omarchy-black-white-mosaic-theme
+omarchy theme install https://github.com/erikrjohansson/omarchy-black-white-mosaic-theme
 ```
 
 Use `omarchy theme bg next` to switch between the logo and wordmark wallpapers.
