@@ -4,8 +4,6 @@ Charcoal-black mosaic tiles, soft white motifs, and grayscale interface accents.
 
 ![Black White Mosaic — desktop preview with the wordmark wallpaper](preview.png)
 
-![Black White Mosaic — desktop preview with the logo wallpaper](preview-logo.png)
-
 ## Install
 
 For **Omarchy 4 with Omarchy Shell**:
