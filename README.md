@@ -2,9 +2,9 @@
 
 Charcoal-black mosaic tiles, soft white motifs, and grayscale interface accents. A dark theme for Omarchy.
 
-![Black White Mosaic — desktop preview with the logo wallpaper](preview.png)
+![Black White Mosaic — desktop preview with the wordmark wallpaper](preview.png)
 
-![Black White Mosaic — desktop preview with the wordmark wallpaper](preview-wordmark.png)
+![Black White Mosaic — desktop preview with the logo wallpaper](preview-logo.png)
 
 ## Install
 
@@ -19,7 +19,7 @@ Use `omarchy theme bg next` to switch between the logo and wordmark wallpapers.
 ## The theme
 
 - A continuous mosaic floor with two Omarchy motifs: logo and wordmark.
-- A transparent top bar that blends into the tiled background.
+- A top bar that follows your Omarchy bar setting: transparent, it blends into the tiled background; solid, it matches the windows.
 - Solid dark windows, menus, notifications, and lock screen.
 - Coordinated terminal and editor colors, GTK 3 / GTK 4 styling, and Adwaita icons.
 - Application configs derive from `colors.toml` through Omarchy templates.
@@ -28,7 +28,7 @@ Use `omarchy theme bg next` to switch between the logo and wordmark wallpapers.
 
 Two **3840 × 2160** wallpapers are included.
 
-[Logo](backgrounds/01-black-white-mosaic-logo.png) · [Wordmark](backgrounds/02-black-white-mosaic-wordmark.png)
+[Wordmark](backgrounds/01-black-white-mosaic-wordmark.png) · [Logo](backgrounds/02-black-white-mosaic-logo.png)
 
 ## License
 

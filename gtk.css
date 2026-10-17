@@ -9,21 +9,21 @@
 @define-color headerbar_border_color #494949;
 @define-color headerbar_shade_color rgba(0, 0, 0, 0.06);
 @define-color sidebar_bg_color #0B0B0B;
-@define-color sidebar_fg_color #E4E4E4;
+@define-color sidebar_fg_color #DCDCDC;
 @define-color sidebar_backdrop_color #0B0B0B;
 @define-color sidebar_border_color #494949;
 @define-color sidebar_shade_color rgba(0, 0, 0, 0.06);
 @define-color secondary_sidebar_bg_color #0B0B0B;
-@define-color secondary_sidebar_fg_color #E4E4E4;
+@define-color secondary_sidebar_fg_color #DCDCDC;
 @define-color secondary_sidebar_backdrop_color #0B0B0B;
 @define-color secondary_sidebar_border_color #494949;
-@define-color card_bg_color #101010;
+@define-color card_bg_color #202020;
 @define-color card_fg_color #DCDCDC;
 @define-color card_shade_color rgba(0, 0, 0, 0.06);
-@define-color popover_bg_color #101010;
+@define-color popover_bg_color #202020;
 @define-color popover_fg_color #DCDCDC;
 @define-color popover_shade_color rgba(0, 0, 0, 0.10);
-@define-color dialog_bg_color #101010;
+@define-color dialog_bg_color #202020;
 @define-color dialog_fg_color #DCDCDC;
 @define-color thumbnail_bg_color #0B0B0B;
 @define-color thumbnail_fg_color #DCDCDC;
@@ -36,12 +36,12 @@
 @define-color error_bg_color #D0D0D0;
 @define-color error_fg_color #101010;
 @define-color error_color #D0D0D0;
-@define-color warning_bg_color #E4E4E4;
+@define-color warning_bg_color #DCB87A;
 @define-color warning_fg_color #101010;
-@define-color warning_color #E4E4E4;
-@define-color success_bg_color #E4E4E4;
+@define-color warning_color #DCB87A;
+@define-color success_bg_color #93C69D;
 @define-color success_fg_color #101010;
-@define-color success_color #E4E4E4;
+@define-color success_color #93C69D;
 @define-color borders #494949;
 @define-color unfocused_borders #494949;
 @define-color shade_color rgba(0, 0, 0, 0.08);
@@ -49,8 +49,8 @@
 @define-color theme_fg_color #DCDCDC;
 @define-color theme_base_color #101010;
 @define-color theme_text_color #DCDCDC;
-@define-color theme_selected_bg_color #E4E4E4;
-@define-color theme_selected_fg_color #101010;
+@define-color theme_selected_bg_color #454545;
+@define-color theme_selected_fg_color #DCDCDC;
 @define-color insensitive_bg_color #0B0B0B;
 @define-color insensitive_fg_color #A0A0A0;
 @define-color insensitive_base_color #0B0B0B;
@@ -58,7 +58,7 @@
 @define-color theme_unfocused_fg_color #A0A0A0;
 @define-color theme_unfocused_base_color #101010;
 @define-color theme_unfocused_text_color #A0A0A0;
-@define-color theme_unfocused_selected_bg_color #383838;
+@define-color theme_unfocused_selected_bg_color #363636;
 @define-color theme_unfocused_selected_fg_color #DCDCDC;
 @define-color link_color #E4E4E4;
 @define-color visited_link_color #A0A0A0;
@@ -67,3 +67,11 @@ selection { background-color: #383838; color: #F2F2F2; }
 button.suggested-action { background-color: #E4E4E4; color: #101010; }
 button.suggested-action:hover { background-color: #DCDCDC; color: #101010; }
 button.destructive-action { background-color: #D0D0D0; color: #101010; }
+
+/* Selected files and list rows: a tint of the accent with normal text, so a
+ * selection doesn't outweigh the files themselves. */
+row:selected, .view:selected, gridview > child:selected,
+columnview > listview > row:selected, iconview:selected, treeview.view:selected {
+  background-color: #454545;
+  color: #DCDCDC;
+}
